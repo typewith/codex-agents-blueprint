@@ -1,0 +1,5 @@
+interface:
+  display_name: "failure-mode-and-rollout-review"
+  short_description: "Use when the user wants failure modes, degraded behavior, or readiness reviewed."
+policy:
+  allow_implicit_invocation: true

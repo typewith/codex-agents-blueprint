@@ -1,0 +1,5 @@
+interface:
+  display_name: "release-evidence-pack"
+  short_description: "Use when the user needs a release or readiness evidence pack before PR publication."
+policy:
+  allow_implicit_invocation: true

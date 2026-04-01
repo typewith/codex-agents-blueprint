@@ -1,0 +1,5 @@
+interface:
+  display_name: "integration-cut-planning"
+  short_description: "Use when the user needs sequencing or integration boundaries defined."
+policy:
+  allow_implicit_invocation: true
