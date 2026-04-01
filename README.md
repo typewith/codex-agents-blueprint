@@ -46,6 +46,7 @@ Se voce ja sabe qual blueprint quer adotar:
 | [`backend-platform-coder-go`](./backend-platform-coder-go/README.md) | Servicos Go-first com contratos, storage, concorrencia e operacao | Quando o time quer um bootstrap forte para desenho de servico, workers, schema e release com evidencia | [`backend-platform-coder-go/README.md`](./backend-platform-coder-go/README.md) |
 | [`design-system-coder`](./design-system-coder/README.md) | Prototipacao code-first, mocks, componentes e evidence visual | Quando o time quer transformar briefs e `.prototype/` em mocks revisaveis, com acessibilidade e handoff visual claros | [`design-system-coder/README.md`](./design-system-coder/README.md) |
 | [`backend-platform-coder-ts-typeorm`](./backend-platform-coder-ts-typeorm/README.md) | Backends Node/TypeScript com TypeORM, contratos, migrations e integracoes | Quando o time quer um bootstrap operacional para API, fila, modelagem de dados e release com evidencia | [`backend-platform-coder-ts-typeorm/README.md`](./backend-platform-coder-ts-typeorm/README.md) |
+| [`backend-platform-coder-agnostic`](./backend-platform-coder-agnostic/README.md) | Arquitetura backend agnostica, contratos, estrutura de dados e readiness | Quando o time quer um blueprint forte em decisao tecnica e handoff, sem travar linguagem ou framework | [`backend-platform-coder-agnostic/README.md`](./backend-platform-coder-agnostic/README.md) |
 
 ## Estrutura esperada de cada blueprint
 

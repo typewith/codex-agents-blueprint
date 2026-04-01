@@ -1,0 +1,5 @@
+interface:
+  display_name: "api-contract-design"
+  short_description: "Use when the user needs interface or contract design without locking a specific stack."
+policy:
+  allow_implicit_invocation: true

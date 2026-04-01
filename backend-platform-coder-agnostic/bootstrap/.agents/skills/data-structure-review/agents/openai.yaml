@@ -1,0 +1,5 @@
+interface:
+  display_name: "data-structure-review"
+  short_description: "Use when the user needs data shape, invariants, or state transitions reviewed."
+policy:
+  allow_implicit_invocation: true
