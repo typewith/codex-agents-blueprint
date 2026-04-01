@@ -1,0 +1,5 @@
+interface:
+  display_name: "release-evidence-pack"
+  short_description: "Use when the user needs a backend evidence bundle before opening the PR."
+policy:
+  allow_implicit_invocation: true

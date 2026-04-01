@@ -1,0 +1,5 @@
+interface:
+  display_name: "migration-safety-review"
+  short_description: "Use when the user wants migration risk reviewed before publication."
+policy:
+  allow_implicit_invocation: true
