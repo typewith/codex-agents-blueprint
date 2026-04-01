@@ -1,4 +1,4 @@
-# codex-agents-blueprint
+# Codex Agents Blueprint
 
 Catalogo publico de blueprints reutilizaveis para times que querem estruturar o uso do Codex com agentes, skills, bootstrap operacional e convencoes de trabalho por contexto.
 
