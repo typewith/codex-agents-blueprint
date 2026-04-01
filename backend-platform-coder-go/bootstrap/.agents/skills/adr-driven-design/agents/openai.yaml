@@ -1,0 +1,5 @@
+interface:
+  display_name: "adr-driven-design"
+  short_description: "Use when the user needs service architecture decisions captured before implementation."
+policy:
+  allow_implicit_invocation: true

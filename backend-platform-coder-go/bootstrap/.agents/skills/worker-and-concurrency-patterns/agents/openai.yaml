@@ -1,0 +1,5 @@
+interface:
+  display_name: "worker-and-concurrency-patterns"
+  short_description: "Use when the user needs worker, goroutine, or concurrency pattern help."
+policy:
+  allow_implicit_invocation: true
