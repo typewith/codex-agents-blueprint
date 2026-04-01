@@ -1,87 +1,68 @@
 # codex-agents-blueprint
 
-Repositorio de blueprints reutilizaveis para times que querem estruturar o uso do Codex com agentes, skills, bootstrap operacional e convencoes de trabalho por contexto.
+Catalogo publico de blueprints reutilizaveis para times que querem estruturar o uso do Codex com agentes, skills, bootstrap operacional e convencoes de trabalho por contexto.
 
-Hoje o repositorio ja inclui blueprints para Unreal Engine e para monorepos web com modelos, e a ideia e continuar crescendo como um catalogo de referencias publicas para diferentes stacks, fluxos e niveis de maturidade.
+Este repositorio existe para transformar setups recorrentes em pontos de partida claros, copiaveis e revisaveis. Em vez de reinventar a base a cada novo projeto, a proposta aqui e manter um conjunto curado de blueprints para diferentes stacks, fluxos e niveis de maturidade.
 
-## Objetivo
+## Visao geral
 
-Este repositorio existe para:
+Cada blueprint deste catalogo foi pensada para funcionar como referencia publica e como base de bootstrap:
 
-- centralizar blueprints compartilhaveis de agentes e workflows
-- reduzir o trabalho de montar estruturas repetidas do zero
-- servir como base de bootstrap para novos repositorios
-- manter documentacao publica de como cada blueprint deve ser usada
+- explica o problema que resolve
+- documenta como o fluxo deve ser operado
+- expoe agentes, skills e artefatos reutilizaveis
+- ajuda o time a sair do zero com menos ambiguidade
 
-Em vez de tratar cada setup como um projeto isolado, a proposta aqui e organizar um conjunto de blueprints curadas, com fronteiras claras e documentacao de entrada.
+O foco da raiz do repositorio e orientar descoberta e adocao. Os detalhes operacionais vivem dentro de cada blueprint.
 
-## Como usar este repositorio
+## O que existe em uma blueprint
 
-Voce pode usar este repositorio de duas formas:
+A estrutura pode evoluir de forma independente, mas o formato recomendado hoje e:
 
-### 1. Como indice de referencia
+- `README.md`: visao geral, modos de uso e onboarding da blueprint
+- `bootstrap/`: scaffold copiavel para o repositorio de destino
+- `agents/`: catalogo publico dos agentes incluidos
+- `skills/`: catalogo publico das skills incluidas
 
-Se voce ainda esta explorando opcoes, navegue pelas blueprints disponiveis e leia a documentacao de cada uma para entender:
+Nem toda blueprint futura precisa ter exatamente os mesmos diretorios, mas a navegacao deve continuar simples e legivel para quem chega pela primeira vez.
 
-- qual problema ela resolve
-- para que tipo de projeto ela foi pensada
-- quais agentes, skills e scripts ela inclui
-- como fazer a primeira execucao
+## Como comecar
 
-### 2. Como fonte de bootstrap
+Se voce esta explorando opcoes:
 
-Se voce ja sabe qual blueprint quer adotar:
+1. Leia a tabela de blueprints abaixo.
+2. Abra o `README.md` da blueprint que mais se aproxima do seu caso.
+3. Confirme se o fluxo, os agentes e os artefatos batem com a realidade do seu projeto.
+
+Se voce ja escolheu uma blueprint:
 
 1. Entre no diretorio da blueprint desejada.
-2. Leia o `README.md` daquela blueprint.
+2. Leia o `README.md` dela por completo.
 3. Copie ou adapte o conteudo de `bootstrap/` para o repositorio de destino.
 4. Siga a documentacao interna da propria blueprint para instalar, validar e operar o fluxo.
 
 ## Blueprints disponiveis
 
-| Blueprint | Foco | Quando usar | Entrada principal |
-| --- | --- | --- | --- |
-| [`unreal-engine-coder`](./unreal-engine-coder/README.md) | Projetos Unreal Engine com harness engineering, subagents, skills e fluxo de evidence/handoff | Quando o time quer operar um repositorio Unreal com disciplina de task dossier, worktree, evidence pack e opcionalmente MCP | [`unreal-engine-coder/README.md`](./unreal-engine-coder/README.md) |
-| [`ai-webapp-coder`](./ai-webapp-coder/README.md) | Monorepos web com modelos, `.prototype`, backlog opcional, evidence e PR workflow | Quando o time quer estruturar apps web e runtimes de modelos com worktrees, paridade visual, validacao e handoff de PR | [`ai-webapp-coder/README.md`](./ai-webapp-coder/README.md) |
-| [`backend-platform-coder-go`](./backend-platform-coder-go/README.md) | Servicos Go-first com contratos, storage, concorrencia e operacao | Quando o time quer um bootstrap forte para desenho de servico, workers, schema e release com evidencia | [`backend-platform-coder-go/README.md`](./backend-platform-coder-go/README.md) |
-| [`design-system-coder`](./design-system-coder/README.md) | Prototipacao code-first, mocks, componentes e evidence visual | Quando o time quer transformar briefs e `.prototype/` em mocks revisaveis, com acessibilidade e handoff visual claros | [`design-system-coder/README.md`](./design-system-coder/README.md) |
-| [`backend-platform-coder-ts-typeorm`](./backend-platform-coder-ts-typeorm/README.md) | Backends Node/TypeScript com TypeORM, contratos, migrations e integracoes | Quando o time quer um bootstrap operacional para API, fila, modelagem de dados e release com evidencia | [`backend-platform-coder-ts-typeorm/README.md`](./backend-platform-coder-ts-typeorm/README.md) |
-| [`backend-platform-coder-agnostic`](./backend-platform-coder-agnostic/README.md) | Arquitetura backend agnostica, contratos, estrutura de dados e readiness | Quando o time quer um blueprint forte em decisao tecnica e handoff, sem travar linguagem ou framework | [`backend-platform-coder-agnostic/README.md`](./backend-platform-coder-agnostic/README.md) |
-| [`mobile-app-coder`](./mobile-app-coder/README.md) | Expo/React Native, `.prototype`, evidence visual e operacao Android/iOS | Quando o time quer estruturar apps mobile com skills explicitas para Android Studio, Xcode e handoff visual | [`mobile-app-coder/README.md`](./mobile-app-coder/README.md) |
+Esta tabela funciona como indice do catalogo e inclui blueprints ja publicadas no repositorio, alem de blueprints consideradas validas para adicao a partir de PRs abertas.
 
-## Estrutura esperada de cada blueprint
+| Blueprint | Foco | Quando usar |
+| --- | --- | --- |
+| [`unreal-engine-coder`](./unreal-engine-coder/README.md) | Projetos Unreal Engine com harness engineering, subagents, skills e fluxo de evidence/handoff | Quando o time quer operar um repositorio Unreal com disciplina de task dossier, worktree, evidence pack e opcionalmente MCP |
+| [`ai-webapp-coder`](./ai-webapp-coder/README.md) | Monorepos web com modelos, `.prototype`, backlog opcional, evidence e PR workflow | Quando o time quer estruturar apps web e runtimes de modelos com worktrees, paridade visual, validacao e handoff de PR |
+| [`backend-platform-coder-go`](./backend-platform-coder-go/README.md) | Servicos Go-first com contratos, storage, concorrencia e operacao | Quando o time quer um bootstrap forte para desenho de servico, workers, schema e release com evidencia |
+| [`design-system-coder`](./design-system-coder/README.md) | Prototipacao code-first, mocks, componentes e evidence visual | Quando o time quer transformar briefs e `.prototype/` em mocks revisaveis, com acessibilidade e handoff visual claros |
+| [`backend-platform-coder-ts-typeorm`](./backend-platform-coder-ts-typeorm/README.md) | Backends Node/TypeScript com TypeORM, contratos, migrations e integracoes | Quando o time quer um bootstrap operacional para API, fila, modelagem de dados e release com evidencia |
+| [`backend-platform-coder-agnostic`](./backend-platform-coder-agnostic/README.md) | Arquitetura backend agnostica, contratos, estrutura de dados e readiness | Quando o time quer um blueprint forte em decisao tecnica e handoff, sem travar linguagem ou framework |
+| [`mobile-app-coder`](./mobile-app-coder/README.md) | Expo/React Native, `.prototype`, evidence visual e operacao Android/iOS | Quando o time quer estruturar apps mobile com skills explicitas para Android Studio, Xcode e handoff visual |
 
-Cada blueprint pode evoluir de forma independente, mas a estrutura atual segue este padrao:
+## Como contribuir
 
-- `README.md`: visao geral da blueprint, modos de uso e ponto de entrada
-- `bootstrap/`: scaffold copiavel para o repositorio de destino
-- `agents/`: catalogo publico dos agentes incluidos
-- `skills/`: catalogo publico das skills incluidas
+Se voce quiser adicionar uma nova blueprint ao catalogo:
 
-Nem toda blueprint futura precisa ter exatamente os mesmos diretorios, mas a recomendacao e manter uma navegacao simples, com um `README.md` forte na raiz de cada pasta principal.
+1. Crie uma pasta propria para a blueprint.
+2. Garanta um `README.md` forte na raiz dessa pasta.
+3. Organize o material publico em torno de `bootstrap/`, `agents/` e `skills/` quando fizer sentido.
+4. Adicione uma linha na tabela desta `README.md` com nome, foco e quando usar.
+5. Mantenha a descricao curta o suficiente para que o catalogo continue escaneavel.
 
-## Comecando pelas blueprints atuais
-
-Se o objetivo for usar a blueprint Unreal, este e o caminho mais curto:
-
-1. Abra [`unreal-engine-coder/README.md`](./unreal-engine-coder/README.md).
-2. Escolha entre o modo `C++ sem MCP` ou `C++ + MCP`.
-3. A partir dali, siga para [`unreal-engine-coder/bootstrap/docs/README.md`](./unreal-engine-coder/bootstrap/docs/README.md).
-4. Consulte os catalogos em [`unreal-engine-coder/agents/README.md`](./unreal-engine-coder/agents/README.md) e [`unreal-engine-coder/skills/README.md`](./unreal-engine-coder/skills/README.md) quando precisar entender papeis e workflows.
-
-Se o objetivo for usar a blueprint web + modelos, este e o caminho mais curto:
-
-1. Abra [`ai-webapp-coder/README.md`](./ai-webapp-coder/README.md).
-2. Escolha entre o modo `backlog-first` e o modo `task-first`.
-3. A partir dali, siga para [`ai-webapp-coder/bootstrap/docs/README.md`](./ai-webapp-coder/bootstrap/docs/README.md).
-4. Consulte os catalogos em [`ai-webapp-coder/agents/README.md`](./ai-webapp-coder/agents/README.md) e [`ai-webapp-coder/skills/README.md`](./ai-webapp-coder/skills/README.md) quando precisar entender papeis e workflows.
-
-## Evolucao futura
-
-Este README foi escrito para funcionar como indice do repositorio. Conforme novas blueprints forem adicionadas, a manutencao esperada aqui e simples:
-
-- adicionar a nova entrada na tabela de blueprints
-- resumir em uma linha o foco e o caso de uso
-- apontar para o `README.md` da blueprint
-
-Assim, a raiz continua enxuta e util, enquanto os detalhes vivem dentro de cada blueprint.
+A raiz do repositorio deve continuar enxuta. O objetivo aqui nao e concentrar toda a documentacao, e sim facilitar descoberta, comparacao e onboarding para cada blueprint.
