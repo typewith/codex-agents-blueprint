@@ -1,0 +1,5 @@
+interface:
+  display_name: "api-contract-sync"
+  short_description: "Use when the user needs to align mobile state with backend contracts."
+policy:
+  allow_implicit_invocation: true

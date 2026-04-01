@@ -1,0 +1,5 @@
+interface:
+  display_name: "xcode-ops"
+  short_description: "Use when the user needs Xcode, simulator, or iOS-native guidance."
+policy:
+  allow_implicit_invocation: true

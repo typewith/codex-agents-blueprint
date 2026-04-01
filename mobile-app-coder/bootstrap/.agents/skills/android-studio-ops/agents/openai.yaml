@@ -1,0 +1,5 @@
+interface:
+  display_name: "android-studio-ops"
+  short_description: "Use when the user needs Android Studio, emulator, or Android-native guidance."
+policy:
+  allow_implicit_invocation: true

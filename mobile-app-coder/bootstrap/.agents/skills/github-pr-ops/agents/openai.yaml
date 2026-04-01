@@ -1,0 +1,5 @@
+interface:
+  display_name: "github-pr-ops"
+  short_description: "Use when the user wants to publish or maintain the GitHub PR for a mobile work item."
+policy:
+  allow_implicit_invocation: true

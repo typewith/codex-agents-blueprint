@@ -1,0 +1,5 @@
+interface:
+  display_name: "screen-parity-review"
+  short_description: "Use when the user wants to review screen parity against the prototype contract."
+policy:
+  allow_implicit_invocation: true
