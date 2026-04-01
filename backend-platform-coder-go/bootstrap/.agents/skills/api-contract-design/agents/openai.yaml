@@ -1,0 +1,5 @@
+interface:
+  display_name: "api-contract-design"
+  short_description: "Use when the user needs API or message contract design for Go services."
+policy:
+  allow_implicit_invocation: true

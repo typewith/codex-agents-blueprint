@@ -1,0 +1,5 @@
+interface:
+  display_name: "storage-and-schema-review"
+  short_description: "Use when the user wants storage or schema risk reviewed for a Go service."
+policy:
+  allow_implicit_invocation: true

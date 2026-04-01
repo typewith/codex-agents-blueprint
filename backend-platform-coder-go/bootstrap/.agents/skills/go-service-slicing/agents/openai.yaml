@@ -1,0 +1,5 @@
+interface:
+  display_name: "go-service-slicing"
+  short_description: "Use when the user needs package boundaries or service slicing in Go."
+policy:
+  allow_implicit_invocation: true

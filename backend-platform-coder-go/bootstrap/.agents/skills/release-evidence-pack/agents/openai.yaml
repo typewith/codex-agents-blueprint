@@ -1,0 +1,5 @@
+interface:
+  display_name: "release-evidence-pack"
+  short_description: "Use when the user needs a release-ready evidence bundle for a Go backend change."
+policy:
+  allow_implicit_invocation: true
