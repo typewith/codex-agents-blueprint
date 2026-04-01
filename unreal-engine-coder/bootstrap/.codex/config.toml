@@ -1,0 +1,38 @@
+project_root_markers = [".git"]
+
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+model_verbosity = "medium"
+
+[agents]
+max_threads = 8
+max_depth = 1
+job_max_runtime_seconds = 3600
+
+# Local MCP wiring belongs in `.codex/config.local.toml` (ignored by Git).
+# Generate it only when the project exists and MCP is part of your workflow:
+#
+#   python scripts/mcp/render-codex-local-config.py --project-root .
+#
+# Example local sections:
+#
+# [mcp_servers.unreal_mcp]
+# command = "npx"
+# args = ["unreal-engine-mcp-server"]
+# tool_timeout_sec = 180
+# startup_timeout_sec = 20
+#
+# [mcp_servers.unreal_mcp.env]
+# UE_PROJECT_PATH = "C:/Path/To/Project/Project.uproject"
+# MCP_AUTOMATION_PORT = "8091"
+#
+# [mcp_servers.mcp_unreal]
+# command = "mcp-unreal"
+# args = []
+# tool_timeout_sec = 240
+# startup_timeout_sec = 20
+#
+# [mcp_servers.mcp_unreal.env]
+# MCP_UNREAL_PROJECT = "C:/Path/To/Project/Project.uproject"
+# RC_API_PORT = "30010"
+# PLUGIN_PORT = "8090"
