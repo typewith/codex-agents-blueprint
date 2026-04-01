@@ -1,0 +1,61 @@
+model = "gpt-5.4"
+model_reasoning_effort = "high"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+project_root_markers = [".git"]
+
+[agents]
+max_threads = 6
+max_depth = 1
+
+[sandbox_workspace_write]
+network_access = true
+
+[shell_environment_policy]
+inherit = "core"
+include_only = [
+  "PATH",
+  "HOME",
+  "SHELL",
+  "TERM",
+  "TZ",
+  "NODE_ENV",
+  "APP_ENV",
+  "WEB_*",
+  "API_*",
+  "VITE_*",
+  "NEXT_PUBLIC_*",
+  "DATABASE_*",
+  "POSTGRES_*",
+  "MYSQL_*",
+  "SQLITE_*",
+  "REDIS_*",
+  "MINIO_*",
+  "S3_*",
+  "AWS_*",
+  "AZURE_*",
+  "GCP_*",
+  "MODEL_*",
+  "LLM_*",
+  "INFERENCE_*",
+  "GITHUB_*",
+  "GH_*"
+]
+
+[profiles.backlog-worker]
+model = "gpt-5.4"
+model_reasoning_effort = "high"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[profiles.backlog-reviewer]
+model = "gpt-5.4"
+model_reasoning_effort = "high"
+approval_policy = "never"
+sandbox_mode = "read-only"
+
+[profiles.backlog-mapper]
+model = "gpt-5.4-mini"
+model_reasoning_effort = "medium"
+approval_policy = "never"
+sandbox_mode = "read-only"

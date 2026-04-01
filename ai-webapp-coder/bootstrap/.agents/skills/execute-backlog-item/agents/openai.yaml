@@ -1,0 +1,5 @@
+interface:
+  display_name: "execute-backlog-item"
+  short_description: "Use when the user asks to execute an EPIC or TASK from the backlog end-to-end."
+policy:
+  allow_implicit_invocation: true
