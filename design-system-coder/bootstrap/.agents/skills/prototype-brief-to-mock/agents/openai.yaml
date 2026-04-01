@@ -1,0 +1,5 @@
+interface:
+  display_name: "prototype-brief-to-mock"
+  short_description: "Use when the user wants to turn a brief or prototype spec into a code-first mock."
+policy:
+  allow_implicit_invocation: true

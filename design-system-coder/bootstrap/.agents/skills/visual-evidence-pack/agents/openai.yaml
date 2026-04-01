@@ -1,0 +1,5 @@
+interface:
+  display_name: "visual-evidence-pack"
+  short_description: "Use when the user needs screenshots, notes, and visual proof bundled for review."
+policy:
+  allow_implicit_invocation: true
