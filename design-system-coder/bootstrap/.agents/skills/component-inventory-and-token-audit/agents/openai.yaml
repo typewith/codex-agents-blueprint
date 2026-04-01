@@ -1,0 +1,5 @@
+interface:
+  display_name: "component-inventory-and-token-audit"
+  short_description: "Use when the user needs a component or token audit before growing the mock."
+policy:
+  allow_implicit_invocation: true

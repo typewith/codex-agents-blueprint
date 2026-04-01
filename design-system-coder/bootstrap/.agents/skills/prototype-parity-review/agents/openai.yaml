@@ -1,0 +1,5 @@
+interface:
+  display_name: "prototype-parity-review"
+  short_description: "Use when the user wants to compare the mock against the prototype contract."
+policy:
+  allow_implicit_invocation: true

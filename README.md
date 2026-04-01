@@ -44,6 +44,7 @@ Se voce ja sabe qual blueprint quer adotar:
 | [`unreal-engine-coder`](./unreal-engine-coder/README.md) | Projetos Unreal Engine com harness engineering, subagents, skills e fluxo de evidence/handoff | Quando o time quer operar um repositorio Unreal com disciplina de task dossier, worktree, evidence pack e opcionalmente MCP | [`unreal-engine-coder/README.md`](./unreal-engine-coder/README.md) |
 | [`ai-webapp-coder`](./ai-webapp-coder/README.md) | Monorepos web com modelos, `.prototype`, backlog opcional, evidence e PR workflow | Quando o time quer estruturar apps web e runtimes de modelos com worktrees, paridade visual, validacao e handoff de PR | [`ai-webapp-coder/README.md`](./ai-webapp-coder/README.md) |
 | [`backend-platform-coder-go`](./backend-platform-coder-go/README.md) | Servicos Go-first com contratos, storage, concorrencia e operacao | Quando o time quer um bootstrap forte para desenho de servico, workers, schema e release com evidencia | [`backend-platform-coder-go/README.md`](./backend-platform-coder-go/README.md) |
+| [`design-system-coder`](./design-system-coder/README.md) | Prototipacao code-first, mocks, componentes e evidence visual | Quando o time quer transformar briefs e `.prototype/` em mocks revisaveis, com acessibilidade e handoff visual claros | [`design-system-coder/README.md`](./design-system-coder/README.md) |
 
 ## Estrutura esperada de cada blueprint
 

@@ -1,0 +1,3 @@
+# Architecture: prototype contract
+
+NaN

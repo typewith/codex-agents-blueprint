@@ -1,0 +1,5 @@
+interface:
+  display_name: "code-first-mock-generation"
+  short_description: "Use when the user wants to generate or refine code-first mocks quickly."
+policy:
+  allow_implicit_invocation: true
