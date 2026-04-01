@@ -1,0 +1,5 @@
+interface:
+  display_name: "evidence-pack"
+  short_description: "Use when assembling test outputs, screenshots, logs, and risk notes into a reviewable evidence bundle."
+policy:
+  allow_implicit_invocation: true

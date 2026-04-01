@@ -2,7 +2,7 @@
 
 Repositorio de blueprints reutilizaveis para times que querem estruturar o uso do Codex com agentes, skills, bootstrap operacional e convencoes de trabalho por contexto.
 
-Hoje o repositorio comeca com uma blueprint focada em Unreal Engine, mas a ideia e crescer como um catalogo de referencias publicas para diferentes stacks, fluxos e niveis de maturidade.
+Hoje o repositorio ja inclui blueprints para Unreal Engine e para monorepos web com modelos, e a ideia e continuar crescendo como um catalogo de referencias publicas para diferentes stacks, fluxos e niveis de maturidade.
 
 ## Objetivo
 
@@ -42,6 +42,7 @@ Se voce ja sabe qual blueprint quer adotar:
 | Blueprint | Foco | Quando usar | Entrada principal |
 | --- | --- | --- | --- |
 | [`unreal-engine-coder`](./unreal-engine-coder/README.md) | Projetos Unreal Engine com harness engineering, subagents, skills e fluxo de evidence/handoff | Quando o time quer operar um repositorio Unreal com disciplina de task dossier, worktree, evidence pack e opcionalmente MCP | [`unreal-engine-coder/README.md`](./unreal-engine-coder/README.md) |
+| [`ai-webapp-coder`](./ai-webapp-coder/README.md) | Monorepos web com modelos, `.prototype`, backlog opcional, evidence e PR workflow | Quando o time quer estruturar apps web e runtimes de modelos com worktrees, paridade visual, validacao e handoff de PR | [`ai-webapp-coder/README.md`](./ai-webapp-coder/README.md) |
 
 ## Estrutura esperada de cada blueprint
 
@@ -54,14 +55,21 @@ Cada blueprint pode evoluir de forma independente, mas a estrutura atual segue e
 
 Nem toda blueprint futura precisa ter exatamente os mesmos diretorios, mas a recomendacao e manter uma navegacao simples, com um `README.md` forte na raiz de cada pasta principal.
 
-## Comecando pela blueprint atual
+## Comecando pelas blueprints atuais
 
-Se o objetivo for usar a blueprint ja disponivel, este e o caminho mais curto:
+Se o objetivo for usar a blueprint Unreal, este e o caminho mais curto:
 
 1. Abra [`unreal-engine-coder/README.md`](./unreal-engine-coder/README.md).
 2. Escolha entre o modo `C++ sem MCP` ou `C++ + MCP`.
 3. A partir dali, siga para [`unreal-engine-coder/bootstrap/docs/README.md`](./unreal-engine-coder/bootstrap/docs/README.md).
 4. Consulte os catalogos em [`unreal-engine-coder/agents/README.md`](./unreal-engine-coder/agents/README.md) e [`unreal-engine-coder/skills/README.md`](./unreal-engine-coder/skills/README.md) quando precisar entender papeis e workflows.
+
+Se o objetivo for usar a blueprint web + modelos, este e o caminho mais curto:
+
+1. Abra [`ai-webapp-coder/README.md`](./ai-webapp-coder/README.md).
+2. Escolha entre o modo `backlog-first` e o modo `task-first`.
+3. A partir dali, siga para [`ai-webapp-coder/bootstrap/docs/README.md`](./ai-webapp-coder/bootstrap/docs/README.md).
+4. Consulte os catalogos em [`ai-webapp-coder/agents/README.md`](./ai-webapp-coder/agents/README.md) e [`ai-webapp-coder/skills/README.md`](./ai-webapp-coder/skills/README.md) quando precisar entender papeis e workflows.
 
 ## Evolucao futura
 

@@ -1,0 +1,5 @@
+interface:
+  display_name: "model-runtime-ops"
+  short_description: "Use when validating provider config, model-runtime smoke checks, degraded mode, or evidence for AI-backed features."
+policy:
+  allow_implicit_invocation: true

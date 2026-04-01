@@ -1,0 +1,5 @@
+interface:
+  display_name: "docker-stack-ops"
+  short_description: "Use when bringing the local stack up/down or validating behavior through Docker only."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+interface:
+  display_name: "prototype-parity"
+  short_description: "Use when a change touches UI, routes, copy, or states that must remain 1:1 with the prototype."
+policy:
+  allow_implicit_invocation: true
