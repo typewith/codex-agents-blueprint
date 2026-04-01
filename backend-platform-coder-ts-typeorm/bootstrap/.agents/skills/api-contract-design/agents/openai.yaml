@@ -1,0 +1,5 @@
+interface:
+  display_name: "api-contract-design"
+  short_description: "Use when the user needs endpoint, DTO, or event contract design."
+policy:
+  allow_implicit_invocation: true

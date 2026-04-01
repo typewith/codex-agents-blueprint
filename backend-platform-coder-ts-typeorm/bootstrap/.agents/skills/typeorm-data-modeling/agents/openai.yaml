@@ -1,0 +1,5 @@
+interface:
+  display_name: "typeorm-data-modeling"
+  short_description: "Use when the user needs entity, repository, query, or migration work in TypeORM."
+policy:
+  allow_implicit_invocation: true

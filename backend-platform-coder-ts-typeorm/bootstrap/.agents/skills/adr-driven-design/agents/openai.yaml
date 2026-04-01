@@ -1,0 +1,5 @@
+interface:
+  display_name: "adr-driven-design"
+  short_description: "Use when the user needs architecture decisions captured before or during backend work."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+interface:
+  display_name: "background-jobs-and-integrations"
+  short_description: "Use when the user needs queues, jobs, workers, or third-party integration changes."
+policy:
+  allow_implicit_invocation: true
