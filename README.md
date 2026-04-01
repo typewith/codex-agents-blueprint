@@ -47,6 +47,7 @@ Se voce ja sabe qual blueprint quer adotar:
 | [`design-system-coder`](./design-system-coder/README.md) | Prototipacao code-first, mocks, componentes e evidence visual | Quando o time quer transformar briefs e `.prototype/` em mocks revisaveis, com acessibilidade e handoff visual claros | [`design-system-coder/README.md`](./design-system-coder/README.md) |
 | [`backend-platform-coder-ts-typeorm`](./backend-platform-coder-ts-typeorm/README.md) | Backends Node/TypeScript com TypeORM, contratos, migrations e integracoes | Quando o time quer um bootstrap operacional para API, fila, modelagem de dados e release com evidencia | [`backend-platform-coder-ts-typeorm/README.md`](./backend-platform-coder-ts-typeorm/README.md) |
 | [`backend-platform-coder-agnostic`](./backend-platform-coder-agnostic/README.md) | Arquitetura backend agnostica, contratos, estrutura de dados e readiness | Quando o time quer um blueprint forte em decisao tecnica e handoff, sem travar linguagem ou framework | [`backend-platform-coder-agnostic/README.md`](./backend-platform-coder-agnostic/README.md) |
+| [`mobile-app-coder`](./mobile-app-coder/README.md) | Expo/React Native, `.prototype`, evidence visual e operacao Android/iOS | Quando o time quer estruturar apps mobile com skills explicitas para Android Studio, Xcode e handoff visual | [`mobile-app-coder/README.md`](./mobile-app-coder/README.md) |
 
 ## Estrutura esperada de cada blueprint
 

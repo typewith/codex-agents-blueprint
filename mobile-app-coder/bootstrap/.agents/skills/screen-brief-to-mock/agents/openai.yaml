@@ -1,0 +1,5 @@
+interface:
+  display_name: "screen-brief-to-mock"
+  short_description: "Use when the user wants to turn a screen brief into a mobile mock or screen flow."
+policy:
+  allow_implicit_invocation: true

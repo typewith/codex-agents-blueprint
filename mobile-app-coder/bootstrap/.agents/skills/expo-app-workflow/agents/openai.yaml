@@ -1,0 +1,5 @@
+interface:
+  display_name: "expo-app-workflow"
+  short_description: "Use when the user wants to implement or refine Expo/React Native screens and flows."
+policy:
+  allow_implicit_invocation: true
